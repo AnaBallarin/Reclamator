@@ -1,35 +1,23 @@
 # Reclamator
 
-Repositorio de conocimiento para agente de respuesta a reclamaciones sanitarias.
+Base de conocimiento para agente de respuesta a reclamaciones sanitarias.
 
-Esta página reúne las instrucciones, documentación y modelos que debe utilizar el agente.
+## Fuente principal del agente
 
-## Instrucciones principales
+El agente debe leer prioritariamente esta base de conocimiento:
 
-- [README](../README.md)
-- [AGENTS](../AGENTS.md)
-- [Instrucciones de Copilot](../.github/copilot-instructions.md)
+[Base de conocimiento completa](base_conocimiento.md)
 
-## Documentación técnica
+## Plantilla Word institucional
 
-- [Modelo institucional de respuesta](modelo_institucional_respuesta.md)
-- [Índice de modelos de respuesta](modelos_respuesta_reclamaciones.md)
-- [Plantilla Word de reclamaciones](plantilla_word_reclamaciones.md)
+La plantilla Word institucional está disponible aquí:
 
-## Modelos de respuesta disponibles
+[Descargar plantilla Word](plantillas/plantilla_respuesta_reclamacion.docx)
 
-- [01. Accesibilidad telefónica](modelos/01_accesibilidad_telefonica.md)
-- [02. Demora en citaciones](modelos/02_demora_citaciones.md)
-- [03. Desacuerdo con organización y normas](modelos/03_desacuerdo_organizacion_y_normas.md)
+## Instrucción para el agente
 
-## Regla de uso para el agente
+Para responder reclamaciones, utiliza exclusivamente el contenido de `base_conocimiento.md`.
 
-El agente debe utilizar esta página como índice principal.
+No navegues por otros documentos salvo que el usuario lo solicite expresamente.
 
-Para redactar una respuesta a una reclamación:
-
-1. Debe leer primero las instrucciones generales.
-2. Debe consultar el índice de modelos.
-3. Debe seleccionar el modelo aplicable dentro de `docs/modelos/`.
-4. Debe redactar la respuesta usando exclusivamente el modelo seleccionado y los datos explícitos de la reclamación.
-5. Si no encuentra un modelo adecuado, debe detenerse y comunicar incidencia.
+Si no encuentras un modelo aplicable dentro de la base de conocimiento, detente y comunica incidencia.
