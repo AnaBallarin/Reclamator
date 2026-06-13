@@ -12,7 +12,7 @@ El agente debe leer prioritariamente esta base de conocimiento:
 
 La plantilla Word institucional está disponible aquí:
 
-[Descargar plantilla Word](plantillas/plantilla_respuesta_reclamacion.docx)
+[Descargar plantilla Word](plantilla_respuesta_reclamacion.docx)
 
 ## Instrucción para el agente
 
