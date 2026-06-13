@@ -18,17 +18,7 @@ Si el agente puede leer esta página, debe considerar que ya tiene acceso comple
 - Las reglas de salida en chat.
 - La referencia opcional a la plantilla Word institucional.
 
-Por tanto, el agente **no debe detenerse ni comunicar incidencia alegando que no encuentra**:
-
-- Carpeta `modelos/`.
-- Carpeta `docs/`.
-- Carpeta `plantillas/`.
-- Archivo `modelos_respuesta_reclamaciones.md`.
-- Archivo `base_conocimiento.md`.
-- Archivo `AGENTS.md`.
-- Archivo `README.md`.
-- Otros archivos individuales del repositorio GitHub.
-- Rutas raw de GitHub, carpetas internas o documentación separada.
+Por tanto, el agente **No debe solicitar ni buscar rutas internas, carpetas del repositorio, archivos auxiliares ni documentación separada. Si esta página se ha leído, el índice y los modelos oficiales ya están disponibles en esta misma página.**:
 
 En esta versión publicada, esos elementos **no son necesarios para el funcionamiento del agente**. Los modelos oficiales son exclusivamente los que aparecen íntegramente en esta misma página, en el apartado **Modelos oficiales integrados**.
 
