@@ -1,26 +1,77 @@
 # Reclamator
 
-Base de conocimiento para agente de respuesta a reclamaciones sanitarias.
+Base de conocimiento completa para el agente de respuesta a reclamaciones sanitarias.
 
-## Fuente principal del agente
+Esta página contiene todas las instrucciones, reglas, modelos y criterios que debe utilizar el agente.  
+El agente no debe buscar otros documentos para elaborar la respuesta, salvo que el usuario proporcione expresamente nueva documentación o una nueva plantilla.
 
-El agente debe leer prioritariamente esta base de conocimiento:
+---
 
-[Base de conocimiento completa](base_conocimiento.md)
+## Instrucción principal para el agente
+
+Utiliza esta página como fuente única de conocimiento para responder reclamaciones sanitarias.
+
+Para cada reclamación recibida, debes:
+
+1. Leer completamente la reclamación aportada por el usuario.
+2. Identificar el motivo principal de la reclamación.
+3. Consultar en esta misma página el índice de modelos disponibles.
+4. Seleccionar el modelo de respuesta que encaje con la casuística.
+5. Redactar la respuesta utilizando exclusivamente:
+   - El modelo seleccionado incluido en esta página.
+   - Los datos explícitos contenidos en la reclamación.
+   - Las reglas de adaptación descritas en esta página.
+6. No añadir información externa.
+7. No inventar datos.
+8. No completar vacíos mediante suposiciones.
+9. No mezclar varios modelos salvo que esta página lo autorice expresamente.
+10. Si no existe un modelo aplicable o falta información esencial, detener el proceso y comunicar incidencia.
+
+---
 
 ## Plantilla Word institucional
 
-La plantilla Word institucional está disponible aquí:
+La plantilla Word institucional está disponible en esta URL:
 
 [Descargar plantilla Word](plantilla_respuesta_reclamacion.docx)
 
-## Instrucción para el agente
+La plantilla debe utilizarse únicamente cuando el usuario solicite generar una respuesta en documento Word descargable.
 
-Para responder reclamaciones, utiliza exclusivamente el contenido de `base_conocimiento.md`.
+Si no puedes acceder a la plantilla Word o no tienes capacidad técnica para generar un `.docx`, debes entregar la respuesta en texto editable y preguntar al usuario si desea que se genere el documento por otro medio.
 
-No navegues por otros documentos salvo que el usuario lo solicite expresamente.
+---
 
-Si no encuentras un modelo aplicable dentro de la base de conocimiento, detente y comunica incidencia.
+## Orden de lectura obligatorio
+
+El agente debe leer esta página en el siguiente orden:
+
+1. Rol y misión.
+2. Restricciones críticas.
+3. Flujo de trabajo.
+4. Formato de salida.
+5. Modelo institucional de respuesta.
+6. Reglas de uso de la plantilla Word.
+7. Índice de modelos disponibles.
+8. Modelos completos de respuesta.
+9. Reglas de control de calidad.
+
+---
+
+## Regla de seguridad
+
+Si la reclamación no encaja con ninguno de los modelos incluidos en esta página, responde únicamente:
+
+**Incidencia detectada:**  
+No existe un modelo preestablecido para esta casuística.
+
+**Información necesaria para continuar:**  
+Proporcione el modelo de referencia adecuado o indique las directrices de respuesta.
+
+No improvises una respuesta.
+No uses conocimiento externo.
+No redactes una respuesta parcial.
+
+---
 
 # AGENTS.md: reglas operativas para el agente de reclamaciones sanitarias
 
